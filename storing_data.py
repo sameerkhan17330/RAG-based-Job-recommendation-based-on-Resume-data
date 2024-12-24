@@ -8,9 +8,8 @@ import time
 import json
 
 # Environment Variables
-SUPABASE_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9mZ2dua2VjdWNnYXZtZnp3ZHNjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNDYzMjYwMSwiZXhwIjoyMDUwMjA4NjAxfQ.JAV8Zpc68sEqOy7TfUmM5lgqWiL3jzO18T8BHFJKn94"
-SUPABASE_URL = "https://ofggnkecucgavmfzwdsc.supabase.co"
-
+SUPABASE_API_KEY = "your key"
+SUPABASE_URL = "your url"
 # Initialize Supabase Client
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_API_KEY)
 

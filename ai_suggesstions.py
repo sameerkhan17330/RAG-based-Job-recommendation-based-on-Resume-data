@@ -10,9 +10,9 @@ from rich import box
 from rich.text import Text
 
 # Initialize clients
-SUPABASE_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9mZ2dua2VjdWNnYXZtZnp3ZHNjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNDYzMjYwMSwiZXhwIjoyMDUwMjA4NjAxfQ.JAV8Zpc68sEqOy7TfUmM5lgqWiL3jzO18T8BHFJKn94"
-SUPABASE_URL = "https://ofggnkecucgavmfzwdsc.supabase.co"
-GROQ_API_KEY = "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"
+SUPABASE_API_KEY = "your key"
+SUPABASE_URL = "your url"
+GROQ_API_KEY = "your groq key"
 
 
 supabase = create_client(SUPABASE_URL, SUPABASE_API_KEY)
@@ -360,5 +360,5 @@ def get_job_recommendations(filename: str):
 
 # Example usage
 if __name__ == "__main__":
-    results = get_job_recommendations("10554236.pdf")
+    results = get_job_recommendations("Adelina_Erimia_PMP1.docx")
     print(results)
