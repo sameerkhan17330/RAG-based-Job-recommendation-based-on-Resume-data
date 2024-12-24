@@ -1,0 +1,13 @@
+pi_heif
+unstructured[docx]
+unstructured[pdf]
+re
+pdfminer
+pdfplumber
+PyPDF2
+unstructured-inference
+datasets
+sqlalchemy
+dotenv
+groq
+supabase
